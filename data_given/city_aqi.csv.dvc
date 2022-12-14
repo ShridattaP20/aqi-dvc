@@ -1,0 +1,4 @@
+outs:
+- md5: fc01de4d1443483be0317277e1ce1a64
+  size: 2311198
+  path: city_aqi.csv
