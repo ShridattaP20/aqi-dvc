@@ -1,6 +1,9 @@
+-e .
 pandas
 numpy
 sklearn
 dvc
 dvc[gdrive]
 flask
+pytest
+tox
