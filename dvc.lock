@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  load_data:
+    cmd: python src/load_data.py --config=params.yaml
+    deps:
+    - path: data_given/city_aqi.csv
+      md5: 797489576ddab07112be83fbd9763349
+      size: 2145121
+    - path: src/get_data.py
+      md5: ef53f044f7c9cf7a3c36dfb92917eb9d
+      size: 612
+    - path: src/load_data.py
+      md5: 4a8fd0c34e58b11d0154f25864cd318f
+      size: 504
+    outs:
+    - path: data/raw/city_aqi.csv
+      md5: 46ebc8891b68301bc4e1164f66794b7a
+      size: 2266815
