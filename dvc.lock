@@ -16,3 +16,19 @@ stages:
     - path: data/raw/city_aqi.csv
       md5: 46ebc8891b68301bc4e1164f66794b7a
       size: 2266815
+  split_data:
+    cmd: python src/split_data.py --config=params.yaml
+    deps:
+    - path: data/raw/city_aqi.csv
+      md5: 46ebc8891b68301bc4e1164f66794b7a
+      size: 2266815
+    - path: src/split_data.py
+      md5: d0b79a27bd3db7325015bcec9ce3f589
+      size: 1099
+    outs:
+    - path: data/processed/test_city_aqi.csv
+      md5: 35437935d4b2361cf0689ad6d17ab2f2
+      size: 454797
+    - path: data/processed/train_city_aqi.csv
+      md5: 36df2d07a6e3ad784076008d9f5b57fe
+      size: 1812082

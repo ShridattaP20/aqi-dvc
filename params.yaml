@@ -10,8 +10,8 @@ load_data:
   raw_dataset_csv: data/raw/city_aqi.csv
 
 split_data:
-  train_path: data/processed/train_city_aqi.csv.csv
-  test_path: data/processed/test_city_aqi.csv.csv
+  train_path: data/processed/train_city_aqi.csv
+  test_path: data/processed/test_city_aqi.csv
   test_size: 0.2
 
 
