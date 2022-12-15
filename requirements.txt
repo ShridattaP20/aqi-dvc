@@ -7,3 +7,4 @@ dvc[gdrive]
 flask
 pytest
 tox
+flake8
