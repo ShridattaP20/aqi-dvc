@@ -8,3 +8,4 @@ flask
 pytest
 tox
 flake8
+importlib-metadata < 5.0
