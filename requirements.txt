@@ -148,7 +148,6 @@ python-dateutil==2.8.2
 python-fsutil==0.8.0
 python-slugify==7.0.0
 pytz==2022.6
-pywin32
 pywinpty==2.0.9
 PyYAML==6.0
 pyzmq==24.0.1
