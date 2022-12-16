@@ -5,7 +5,7 @@ import json
 
 
 params_path = "params.yaml"
-schema_path = "prediction_service\schema_in.json"
+schema_path = os.path.join("prediction_service","schema_in.json")
 
 
 @pytest.fixture
